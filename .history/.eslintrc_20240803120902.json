@@ -1,0 +1,12 @@
+module.exports = {
+  // Other configurations...
+  module.exports = {
+    // Other configurations...
+    rules: {
+      'react/no-unescaped-entities': 'off',
+    },
+  };
+  rules: {
+    'react/no-unescaped-entities': 'off',
+  },
+};
