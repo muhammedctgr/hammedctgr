@@ -20,7 +20,7 @@ const Hero = () => {
             <li><span className="text-blue-600">IT</span> Infrastructure</li>
           </ul>
           <div className="mt-6">
-            <a href="#contact" className=" underline">Let’s Connect {/* eslint-disable-line react/no-unescaped-entities */}</a>
+            <a href="#contact" className=" underline">Let’s Connect </a>
             <div className="mt-2 flex md:justify-start space-x-4">
               <a href="#" className="bg-blue-600 p-2 rounded-md">
                 <AiFillDiscord size={20} />

@@ -17,7 +17,7 @@ const SummarySection: FC = () => {
 
           <p className="text-sm">
             In building Web applications, I'm equipped with just the right tools and can absolutely function independently of them to deliver fast, resilient solutions optimized for scalability.
-            {/* eslint-disable-line react/no-unescaped-entities */}
+            
           </p>
           <div className="mb-4 flex items-center">
             <span className="text-6xl font-bold">Engineering</span>
