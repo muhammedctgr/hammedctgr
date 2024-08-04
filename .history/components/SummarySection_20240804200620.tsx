@@ -28,7 +28,7 @@ const SummarySection: FC = () => {
   <div className="absolute bottom-10 right-0 w-12 h-12 md:w-16 md:h-16 border-b-4 border-l-4 border-purple-800"></div>
   <div className="absolute bottom-1/2 right-1/4 w-6 h-6 md:w-8 md:h-8 border-2 border-purple-800 rounded-full"></div>
   <div className="absolute top-1/4 right-0 transform translate-x-4 translate-y-4 md:translate-x-12 md:translate-y-8">
-    <svg className="fill-current text-purple-200" width="80" height="80" viewBox="0 0 100 100">
+    <svg className="fill-current text-purple-200" width="80" height="80"  viewBox="0 0 100 100">
       {/* SVG circles */}
       {[...Array(10)].map((_, row) => (
         <g key={row} transform={`translate(0, ${row * 10})`}>

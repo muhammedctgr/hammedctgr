@@ -57,36 +57,7 @@ const icons = [
 
 const SkillsSection: FC = () => {
   return (
-    <section className="px-4 py-8 md:px-8 lg:px-12 bg-gray-900 text-white">
-  <div className="container mx-auto flex flex-col md:flex-row items-start">
-    <div className="flex-1 mb-8 md:mb-0">
-      {skills.map((category) => (
-        <div key={category.title} className="mb-8">
-          <h2 className="text-lg md:text-xl font-bold mb-4">{category.title}</h2>
-          <div className="flex flex-wrap gap-2">
-            {category.skills.map((skill) => (
-              <span
-                key={skill.name}
-                className={`px-2 py-1 rounded-md text-sm ${skill.color} shadow-md`}
-              >
-                {skill.name}
-              </span>
-            ))}
-          </div>
-        </div>
-      ))}
-    </div>
-    <div className="flex-1 flex flex-col items-center md:items-end">
-      <div className="grid grid-cols-3 md:grid-cols-1 gap-4">
-        {icons.map((src, index) => (
-          <div key={index} className="w-10 h-10 md:w-12 md:h-12 relative">
-            <Image src={src} alt={`icon-${index}`} layout="fill" objectFit="contain" />
-          </div>
-        ))}
-      </div>
-    </div>
-  </div>
-</section>
+    
   );
 };
 

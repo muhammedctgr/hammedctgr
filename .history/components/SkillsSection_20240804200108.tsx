@@ -87,6 +87,7 @@ const SkillsSection: FC = () => {
     </div>
   </div>
 </section>
+
   );
 };
 
