@@ -15,8 +15,8 @@ const config: Config = {
       },
       colors: {
         githubGray: '#24292e',
-        gptGray: '#1e1e1e', // Define the exact color
-        gradient: 'bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'
+        gptGray: '#1e1e1e' // Define the exact color
+        gradient: 'bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400'
       },
     },
   },

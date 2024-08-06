@@ -67,7 +67,7 @@ const SkillsSection: FC = () => {
             {category.skills.map((skill) => (
               <span
                 key={skill.name}
-                className={`px-2 py-1 rounded-md text-sm neumorph text-green-300`}
+                className={`px-2 py-1 rounded-md text-sm neumorph text-gradient`}
               >
                 {skill.name}
               </span>

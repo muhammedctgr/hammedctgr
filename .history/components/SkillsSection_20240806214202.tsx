@@ -10,39 +10,39 @@ const skills: SkillCategory[] = [
   {
     title: "Languages",
     skills: [
-      { name: "HTML5",  },
-      { name: "CSS", },
-      { name: "JavaScript",  },
-      { name: "Python", },
-      { name: "Rust",  },
-      { name: "PHP", },
-      { name: "Solidity",  },
-      { name: "Typescript",  },
-      { name: "MySQL",  },
-      { name: "MongoDB", },
+      { name: "HTML5", color: "bg-black" },
+      { name: "CSS", color: "bg-black"},
+      { name: "JavaScript", color: "bg-yellow-500" },
+      { name: "Python", color: "bg-green-500" },
+      { name: "Rust", color: "bg-orange-600" },
+      { name: "PHP", color: "bg-purple-500" },
+      { name: "Solidity", color: "bg-black-500" },
+      { name: "Typescript", color: "bg-blue-700" },
+      { name: "MySQL", color: "bg-orange-400" },
+      { name: "MongoDB", color: "bg-green-600" },
     ],
   },
   {
     title: "Frameworks",
     skills: [
-      { name: "React.js", },
-      { name: "Express.js",  },
-      { name: "Node.js", },
-      { name: "Next.js", },
-      { name: "Tailwind", },
+      { name: "React.js", color: "bg-blue-400" },
+      { name: "Express.js", color: "bg-green-500" },
+      { name: "Node.js", color: "bg-green-700" },
+      { name: "Next.js", color: "bg-purple-700" },
+      { name: "Tailwind", color: "bg-purple-500" },
     ],
   },
   {
     title: "Tools & Others",
     skills: [
-      { name: "Git",  },
-      { name: "GitHub",  },
-      { name: "AWS", },
-      { name: "DNS", },
-      { name: "Firebase", },
-      { name: "Figma", },
-      { name: "Windows Servers", },
-      { name: "Linux Servers",  },
+      { name: "Git", color: "bg-orange-500" },
+      { name: "GitHub", color: "bg-purple-800" },
+      { name: "AWS", color: "bg-yellow-600" },
+      { name: "DNS", color: "bg-gray-400" },
+      { name: "Firebase", color: "bg-yellow-500" },
+      { name: "Figma", color: "bg-pink-600" },
+      { name: "Windows Servers", color: "bg-blue-700" },
+      { name: "Linux Servers", color: "bg-black" },
     ],
   },
 ];
@@ -57,7 +57,7 @@ const icons = [
 
 const SkillsSection: FC = () => {
   return (
-  <section className="px-4 py-4 md:px-8 lg:px-12 bg-gptGray text-white">
+    <section className="px-4 py-4 md:px-8 lg:px-12 bg-gptGray text-white">
   <div className="container bg-githubGray rounded-md mx-auto flex flex-col md:flex-row items-start md:px-8">
     <div className="flex-1 p-4 md:p-8">
       {skills.map((category) => (
@@ -67,7 +67,7 @@ const SkillsSection: FC = () => {
             {category.skills.map((skill) => (
               <span
                 key={skill.name}
-                className={`px-2 py-1 rounded-md text-sm neumorph text-green-300`}
+                className={`px-2 py-1 rounded-md text-sm neumorph`}
               >
                 {skill.name}
               </span>

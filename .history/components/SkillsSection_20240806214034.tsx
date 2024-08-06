@@ -3,46 +3,46 @@ import { FC } from 'react';
 
 interface SkillCategory {
   title: string;
-  skills: { name: string; }[];
+  skills: { name: string; : string; }[];
 }
 
 const skills: SkillCategory[] = [
   {
     title: "Languages",
     skills: [
-      { name: "HTML5",  },
-      { name: "CSS", },
-      { name: "JavaScript",  },
-      { name: "Python", },
-      { name: "Rust",  },
-      { name: "PHP", },
-      { name: "Solidity",  },
-      { name: "Typescript",  },
-      { name: "MySQL",  },
-      { name: "MongoDB", },
+      { name: "HTML5", : "bg-black" },
+      { name: "CSS", : "bg-black"},
+      { name: "JavaScript", : "bg-yellow-500" },
+      { name: "Python", : "bg-green-500" },
+      { name: "Rust", : "bg-orange-600" },
+      { name: "PHP", : "bg-purple-500" },
+      { name: "Solidity", : "bg-black-500" },
+      { name: "Typescript", : "bg-blue-700" },
+      { name: "MySQL", : "bg-orange-400" },
+      { name: "MongoDB", : "bg-green-600" },
     ],
   },
   {
     title: "Frameworks",
     skills: [
-      { name: "React.js", },
-      { name: "Express.js",  },
-      { name: "Node.js", },
-      { name: "Next.js", },
-      { name: "Tailwind", },
+      { name: "React.js", : "bg-blue-400" },
+      { name: "Express.js", : "bg-green-500" },
+      { name: "Node.js", : "bg-green-700" },
+      { name: "Next.js", : "bg-purple-700" },
+      { name: "Tailwind", : "bg-purple-500" },
     ],
   },
   {
     title: "Tools & Others",
     skills: [
-      { name: "Git",  },
-      { name: "GitHub",  },
-      { name: "AWS", },
-      { name: "DNS", },
-      { name: "Firebase", },
-      { name: "Figma", },
-      { name: "Windows Servers", },
-      { name: "Linux Servers",  },
+      { name: "Git", : "bg-orange-500" },
+      { name: "GitHub", : "bg-purple-800" },
+      { name: "AWS", : "bg-yellow-600" },
+      { name: "DNS", : "bg-gray-400" },
+      { name: "Firebase", : "bg-yellow-500" },
+      { name: "Figma", : "bg-pink-600" },
+      { name: "Windows Servers", : "bg-blue-700" },
+      { name: "Linux Servers", : "bg-black" },
     ],
   },
 ];
@@ -57,7 +57,7 @@ const icons = [
 
 const SkillsSection: FC = () => {
   return (
-  <section className="px-4 py-4 md:px-8 lg:px-12 bg-gptGray text-white">
+    <section className="px-4 py-4 md:px-8 lg:px-12 bg-gptGray text-white">
   <div className="container bg-githubGray rounded-md mx-auto flex flex-col md:flex-row items-start md:px-8">
     <div className="flex-1 p-4 md:p-8">
       {skills.map((category) => (
@@ -67,7 +67,7 @@ const SkillsSection: FC = () => {
             {category.skills.map((skill) => (
               <span
                 key={skill.name}
-                className={`px-2 py-1 rounded-md text-sm neumorph text-green-300`}
+                className={`px-2 py-1 rounded-md text-sm neumorph`}
               >
                 {skill.name}
               </span>

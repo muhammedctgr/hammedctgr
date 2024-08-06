@@ -7,14 +7,14 @@ const Hero = () => {
     <section className="bg-gptGray px-4 py-4 md:pt-8 md:px-8 lg:px-12 text-white flex items-center">
   <div className="container bg-githubGray shadow-lg rounded-md mx-auto flex flex-col md:flex-row items-center md:px-8">
     <div className="flex-1 text-left p-4 md:p-8">
-      <div className="inline-block bg-blue-600 text-black py-1 px-3 mb-4 rounded-md">
+      <div className="inline-block bg-gradient-to-r from-blue-900 via-green-900 to-indigo-900 py-1 px-3 mb-4 rounded-md">
         Hi, I’m
       </div>
       <div className="mb-6">
         <h1 className="text-xl md:text-3xl font-bold">Popoola Muhammed</h1>
         <p className="mt-2 text-lg md:text-xl">Full-Stack Developer, I build and manage</p>
       </div>
-      <ul className="mt-4 list-disc list-inside text-sm md:text-base">
+      <ul className="mt-4 list-disc list-inside">
         <li>Highly Optimized and Responsive <span className="text-blue-600">FRONT-END</span></li>
         <li>Secure and Scalable <span className="text-blue-600">BACK-END & DATABASE</span></li>
         <li><span className="text-blue-600">IT</span> Infrastructure</li>

@@ -57,7 +57,7 @@ const icons = [
 
 const SkillsSection: FC = () => {
   return (
-  <section className="px-4 py-4 md:px-8 lg:px-12 bg-gptGray text-white">
+    <section className="px-4 py-4 md:px-8 lg:px-12 bg-gptGray text-white">
   <div className="container bg-githubGray rounded-md mx-auto flex flex-col md:flex-row items-start md:px-8">
     <div className="flex-1 p-4 md:p-8">
       {skills.map((category) => (
@@ -67,7 +67,7 @@ const SkillsSection: FC = () => {
             {category.skills.map((skill) => (
               <span
                 key={skill.name}
-                className={`px-2 py-1 rounded-md text-sm neumorph text-green-300`}
+                className={`px-2 py-1 rounded-md text-sm neumorph text-yellow-500 `}
               >
                 {skill.name}
               </span>

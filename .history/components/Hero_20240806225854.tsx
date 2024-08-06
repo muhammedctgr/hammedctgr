@@ -15,7 +15,7 @@ const Hero = () => {
         <p className="mt-2 text-lg md:text-xl">Full-Stack Developer, I build and manage</p>
       </div>
       <ul className="mt-4 list-disc list-inside text-sm md:text-base">
-        <li>Highly Optimized and Responsive <span className="text-blue-600">FRONT-END</span></li>
+        <li className='text-sm md:text-base'>Highly Optimized and Responsive <span className="text-blue-600">FRONT-END</span></li>
         <li>Secure and Scalable <span className="text-blue-600">BACK-END & DATABASE</span></li>
         <li><span className="text-blue-600">IT</span> Infrastructure</li>
       </ul>
