@@ -4,7 +4,7 @@ import { AiFillLinkedin, AiFillGithub, AiFillTwitterSquare, AiFillX } from 'reac
 
 const Hero = () => {
   return (
-    <section className="bg-gptGray px-4 py-4 md:pt-8 md:px-8 lg:px-12 text-white flex items-center">
+    <section className="bg-gptGray px-4 py-4 md:pt- md:px-8 lg:px-12 text-white flex items-center">
   <div className="container bg-githubGray shadow-lg rounded-md mx-auto flex flex-col md:flex-row items-center md:px-8">
     <div className="flex-1 text-left p-4 md:p-8">
       <div className="inline-block bg-blue-600 text-black py-1 px-3 mb-4 rounded-md">

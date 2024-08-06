@@ -63,11 +63,11 @@ const SkillsSection: FC = () => {
       {skills.map((category) => (
         <div key={category.title} className="mb-8">
           <h2 className="text-lg md:text-xl font-bold mb-4">{category.title}</h2>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 bg-gptGray">
             {category.skills.map((skill) => (
               <span
                 key={skill.name}
-                className={`px-2 py-1 rounded-md text-sm bg-gptGray shadow-2xl`}
+                className={`px-2 py-1 rounded-md text-sm`}
               >
                 {skill.name}
               </span>

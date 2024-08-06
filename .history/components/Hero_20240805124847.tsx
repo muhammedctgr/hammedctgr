@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import profilePic from '../public/profile.png';
-import { AiFillLinkedin, AiFillGithub, AiFillTwitterSquare, AiFillX } from 'react-icons/ai';
+import { AiFillDiscord, AiFillGithub, AiFillTwitterSquare, AiFillX } from 'react-icons/ai';
 
 const Hero = () => {
   return (
-    <section className="bg-gptGray px-4 py-4 md:pt-8 md:px-8 lg:px-12 text-white flex items-center">
-  <div className="container bg-githubGray shadow-lg rounded-md mx-auto flex flex-col md:flex-row items-center md:px-8">
+    <section className="bg-gptGray px-4 py-4 md:px-8 lg:px-12 text-white flex items-center">
+  <div className="container bg-githubGray  rounded-md mx-auto flex flex-col md:flex-row items-center md:px-8">
     <div className="flex-1 text-left p-4 md:p-8">
       <div className="inline-block bg-blue-600 text-black py-1 px-3 mb-4 rounded-md">
         Hi, I’m
@@ -23,7 +23,7 @@ const Hero = () => {
         <a href="#contact" className="underline">Let’s Connect</a>
         <div className="mt-2 flex justify-start space-x-4">
           <a href="#" className="bg-blue-600 p-2 rounded-md">
-            <AiFillLinkedin size={20} />
+            <AiFillDiscord size={20} />
           </a>
           <a href="#" className="bg-blue-600 p-2 rounded-md">
             <AiFillTwitterSquare size={20} />
