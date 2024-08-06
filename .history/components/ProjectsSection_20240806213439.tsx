@@ -76,7 +76,7 @@ const ProjectsSection: FC = () => {
                 <p className="text-gray-400 text-xs mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, i) => (
-                    <span key={i} className="neumorph text-white text-xs px-2 py-1 rounded-md">{tech}</span>
+                    <span key={i} className="bg-gray-700 text-white text-xs px-2 py-1 rounded-md">{tech}</span>
                   ))}
                 </div>
                 <div className="flex justify-between items-center">

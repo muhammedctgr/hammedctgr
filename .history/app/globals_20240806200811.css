@@ -47,8 +47,8 @@ body {
 }
 
 .neumorph {
-  border-radius: 5px;
-  background: linear-gradient(145deg, #161414, #1a1818);
-  box-shadow:  5px 5px 10px #111010,
-               -5px -5px 10px #1f1c1c;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #174913, #1b5716);
+box-shadow:  21px 21px 42px #133e10,
+             -21px -21px 42px #1f641a;
 }
