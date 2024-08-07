@@ -66,17 +66,17 @@ const ProjectsSection: FC = () => {
         <h2 className="text-2xl font-bold text-white p-4">Projects and Experience</h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-8 p-4">
           {projects.map((project, index) => (
-            <div key={index} className="bg-gptGray rounded-lg overflow-hidden shadow-deep-all">
+            <div key={index} className="bg-gptGray rounded-lg overflow-hidden shadow-2xl">
               <div className="relative w-full h-48">
-                <img src={project.image} alt={project.title} className="w-full h-full object-cover shadow-deep-all rounded-md" />
-                <span className="shadow-deep-all absolute top-2 right-2 bg-green-500 text-xs text-white px-2 py-1 rounded-md">{project.status}</span>
+                <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
+                <span className="absolute top-2 right-2 bg-green-500 text-xs text-white px-2 py-1 rounded-md">{project.status}</span>
               </div>
               <div className="p-4">
                 <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
                 <p className="text-gray-400 text-xs mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, i) => (
-                    <span key={i} className="bg-githubGray shadow-deep-all text-green-300 text-xs px-2 py-1 rounded-md">{tech}</span>
+                    <span key={i} className="b text-green-300 text-xs px-2 py-1 rounded-md">{tech}</span>
                   ))}
                 </div>
                 <div className="flex justify-between items-center">

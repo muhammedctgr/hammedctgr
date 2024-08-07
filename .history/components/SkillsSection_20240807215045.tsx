@@ -30,7 +30,7 @@ const skills: SkillCategory[] = [
       { name: "Node.js", },
       { name: "Next.js", },
       { name: "Tailwind", },
-      { name: "Bootstrap", }
+      { name: "Tailwind", }
     ],
   },
   {
@@ -41,9 +41,9 @@ const skills: SkillCategory[] = [
       { name: "AWS", },
       { name: "DNS", },
       { name: "Firebase", },
+      { name: "Figma", },
       { name: "Windows Servers", },
       { name: "Linux Servers",  },
-      { name: "Docker",  },
     ],
   },
 ];

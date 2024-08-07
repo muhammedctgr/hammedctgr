@@ -11,19 +11,14 @@ const SummarySection: FC = () => {
       <p className="text-sm md:text-base">
         I'm probably not the typical dev stationed behind a computer, but building state-of-the-art web apps, optimizing performance for scale and avoiding downtime is where you'll find me.
       </p>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" className="w-8 h-8 md:w-16 md:h-16 lg:w-16 lg:h-16 bg-gptGray rounded-md animate-bounce shadow-deep-all" />
-
     </div>
-    <div className=" md:mt-64">
+    <div className="mb-8 md:mt-64">
       <div className="mb-4">
         <span className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">Engineering</span>
       </div>
       <p className="text-sm md:text-base">
         In building Web applications, I'm equipped with just the right tools and can absolutely function independently of them to deliver fast, resilient solutions optimized for scalability.
       </p>
-      
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" className="right-4 w-8 h-8 md:w-16 md:h-16 lg:w-16 lg:h-16 bg-gptGray rounded-md animate-bounce shadow-deep-all" />
-          
     </div>
   </div>
 

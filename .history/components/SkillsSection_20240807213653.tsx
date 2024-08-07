@@ -30,7 +30,6 @@ const skills: SkillCategory[] = [
       { name: "Node.js", },
       { name: "Next.js", },
       { name: "Tailwind", },
-      { name: "Bootstrap", }
     ],
   },
   {
@@ -41,9 +40,9 @@ const skills: SkillCategory[] = [
       { name: "AWS", },
       { name: "DNS", },
       { name: "Firebase", },
+      { name: "Figma", },
       { name: "Windows Servers", },
       { name: "Linux Servers",  },
-      { name: "Docker",  },
     ],
   },
 ];
@@ -68,7 +67,7 @@ const SkillsSection: FC = () => {
             {category.skills.map((skill) => (
               <span
                 key={skill.name}
-                className={`px-2 py-1 rounded-md text-sm shadow-deep-all bg-gptGray text-green-300`}
+                className={`px-2 py-1 rounded-md text-sm shadow-deep-bottom bg-gptGray text-green-300`}
               >
                 {skill.name}
               </span>

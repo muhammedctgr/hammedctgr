@@ -22,7 +22,7 @@ const SummarySection: FC = () => {
         In building Web applications, I'm equipped with just the right tools and can absolutely function independently of them to deliver fast, resilient solutions optimized for scalability.
       </p>
       
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" className="right-4 w-8 h-8 md:w-16 md:h-16 lg:w-16 lg:h-16 bg-gptGray rounded-md animate-bounce shadow-deep-all" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" className="absolute w-8 h-8 md:w-16 md:h-16 lg:w-16 lg:h-16 bg-gptGray rounded-md animate-bounce shadow-deep-all" />
           
     </div>
   </div>

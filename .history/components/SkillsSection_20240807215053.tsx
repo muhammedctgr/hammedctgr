@@ -41,9 +41,9 @@ const skills: SkillCategory[] = [
       { name: "AWS", },
       { name: "DNS", },
       { name: "Firebase", },
+      { name: "Figma", },
       { name: "Windows Servers", },
       { name: "Linux Servers",  },
-      { name: "Docker",  },
     ],
   },
 ];

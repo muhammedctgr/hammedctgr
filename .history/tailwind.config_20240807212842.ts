@@ -18,13 +18,7 @@ const config: Config = {
         gptGray: '#1e1e1e', // Define the exact color
         gradient: 'bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'
       },
-      boxShadow: {
-        'deep-right': '10px 10px 20px rgba(0, 0, 0, 0.25)',  // Right side shadow
-        'deep-left': '-10px 10px 20px rgba(0, 0, 0, 0.25)',  // Left side shadow
-        'deep-top': '10px -10px 20px rgba(0, 0, 0, 0.25)',   // Top side shadow
-        'deep-bottom': '10px 10px 20px rgba(0, 0, 0, 0.25)', // Bottom side shadow
-        'deep-all': '10px 10px 20px rgba(0, 0, 0, 0.5)',     // All sides shadow
-      }
+      
     },
   },
   plugins: [],
