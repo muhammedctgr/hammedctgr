@@ -74,15 +74,15 @@ body {
 }
 
 .animate-scroll-slow {
-  animation: scroll-slow 9s linear infinite;
+  animation: scroll-slow 15s linear infinite;
 }
 
 .animate-scroll-medium {
-  animation: scroll-medium 6s linear infinite;
+  animation: scroll-medium 10s linear infinite;
 }
 
 .animate-scroll-fast {
-  animation: scroll-fast 3s linear infinite;
+  animation: scroll-fast 2s linear infinite;
 }
 
 .animate-scroll-delay {

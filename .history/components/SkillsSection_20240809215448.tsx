@@ -80,7 +80,7 @@ const SkillsSection: FC = () => {
       ))}
     </div>
     <div className="flex-1 flex flex-col items-center md:items-end overflow-hidden">
-      <div className="grid grid-cols-8 md:grid-cols-6 gap-8 p-4 md:p-8">
+      <div className="grid grid-cols-3 md:grid-cols-6 gap-8 p-4 md:p-8">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" className="w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" /> 
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" className="w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-medium" /> 
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" className="w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-slow" />
@@ -103,7 +103,7 @@ const SkillsSection: FC = () => {
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" className="w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-medium" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" className="w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-slow" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" className="w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" className="w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-medium" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" className="w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" className="w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" />
       </div>
     </div>

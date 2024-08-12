@@ -21,6 +21,21 @@ const SummarySection: FC = () => {
       </p>
     </div>
   </div>
+
+  {/* Decorative Elements */}
+  <div className="absolute top-1/4 right-0 transform translate-x-4 translate-y-4 md:translate-x-12 md:translate-y-8">
+    
+    <svg className="fill-current text-purple-200" width="80" height="80" viewBox="0 0 100 100">
+      {/* SVG circles */}
+      {[...Array(10)].map((_, row) => (
+        <g key={row} transform={`translate(0, ${row * 10})`}>
+          {[...Array(10)].map((_, col) => (
+            <circle key={col} cx={col * 10 + 2} cy="2" r="2" />
+          ))}
+        </g>
+      ))}
+    </svg>
+  </div>
 </section>
   );
 };

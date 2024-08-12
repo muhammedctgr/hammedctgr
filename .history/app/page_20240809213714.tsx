@@ -3,7 +3,7 @@ import Hero from '../components/Hero';
 import SkillsSection from '@/components/SkillsSection';
 import SummarySection from '@/components/SummarySection';
 import ProjectsSection from '@/components/ProjectsSection';
-import Skills from '@/components/Skills'
+import s
 
 
 const Home = () => (
@@ -17,7 +17,6 @@ const Home = () => (
     <SummarySection />
     <SkillsSection />
     <ProjectsSection />
-
   </div>
 );
 

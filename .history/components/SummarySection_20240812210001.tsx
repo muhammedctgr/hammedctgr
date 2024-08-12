@@ -21,6 +21,9 @@ const SummarySection: FC = () => {
       </p>
     </div>
   </div>
+
+  {/* Decorative Elements */}
+
 </section>
   );
 };

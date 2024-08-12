@@ -14,7 +14,7 @@ const Hero = () => {
         <h1 className="text-xl md:text-3xl font-bold">Popoola Muhammed</h1>
         <p className="mt-2 text-lg md:text-xl">Full-Stack Developer, I build and manage</p>
       </div>
-      <ul className="mt-4 list-disc list-inside text-xs md:text-base">
+      <ul className="mt-4 list-disc list-inside text-ms md:text-base">
         <li>Highly Optimized and Responsive <span className="text-blue-600">FRONT-END</span></li>
         <li>Secure and Scalable <span className="text-blue-600">BACK-END & DATABASE</span></li>
         <li><span className="text-blue-600">IT</span> Infrastructure</li>
