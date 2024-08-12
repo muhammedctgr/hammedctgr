@@ -61,11 +61,11 @@ const icons = [
 const SkillsSection: FC = () => {
   return (
   <section className="px-4 py-4 md:px-8 lg:px-12 bg-gptGray text-white">
-  <div className="container bg-githubGray rounded-md mx-auto flex flex-col md:flex-row items-start md:px-2">
+  <div className="container bg-githubGray rounded-md mx-auto flex flex-col md:flex-row items-start md:px-8">
     <div className="flex-1 p-4 md:p-8">
       {skills.map((category) => (
         <div key={category.title} className="mb-8">
-          <h2 className="text-lg md:text-xl font-bold mb-4 ">{category.title}</h2>
+          <h2 className="text-lg md:text-xl font-bold mb-4">{category.title}</h2>
           <div className="flex flex-wrap gap-2">
             {category.skills.map((skill) => (
               <span
@@ -79,32 +79,32 @@ const SkillsSection: FC = () => {
         </div>
       ))}
     </div>
-    <div className="flex-1 flex flex-col items-center md:items-end overflow-hidden md:pb-8">
+    <div className="flex-1 flex flex-col items-center md:items-end overflow-hidden">
       <div className="grid grid-cols-6 md:grid-cols-6 gap-8 p-4 md:p-8">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" /> 
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-upfast" /> 
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-upfast" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg"  className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" /> 
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-upfast"  />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast"  />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/solidity/solidity-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-upfast" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-upfast" /> 
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-upfast" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-upfast" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-upfast" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-upfast" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-upfast" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-upfast" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-upfast" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 bg-gptGray rounded-3xl shadow-deep-all mt-4 animate-scroll-fast" />
       </div>
     </div>
   </div>

@@ -61,7 +61,7 @@ const projects: Project[] = [
 
 const ProjectsSection: FC = () => {
   return (
-    <section className="bg-gptGray md:px-8 px-4 py-4 lg:px-12">
+    <section className="bg-gptGray md:px-8 px-4 py-4">
       <div className="container bg-githubGray rounded-md mx-auto md:px-8 ">
         <h2 className="text-2xl font-bold text-white p-4">Projects and Experience</h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-8 p-4">

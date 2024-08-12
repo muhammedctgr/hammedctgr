@@ -83,7 +83,7 @@ body {
 }
 
 .animate-scroll-upfast {
-  animation: scroll-upfast 2s linear infinite;
+  animation: scroll-upfast 3s linear infinite;
 }
 
 .animate-scroll-slow {

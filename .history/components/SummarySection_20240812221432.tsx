@@ -9,7 +9,7 @@ const SummarySection: FC = () => {
         <span className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">Software</span>
       </div>
       <p className="text-sm md:text-base">
-        I'm probably not the typical dev stationed behind a computer, but building state-of-the-art web apps, optimizing performance for scale and avoiding downtime is where you'll find me.
+        I'm ppprobably not the typical dev stationed behind a computer, but building state-of-the-art web apps, optimizing performance for scale and avoiding downtime is where you'll find me.
       </p>  
     </div>
     <div className=" md:mt-48">
