@@ -12,13 +12,13 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Atease",
+    title: "A",
     description: "AutoStoreOnline is a store for those looking for their next car. The website features a dealership dashboard displaying inventories that can be done in minutes. Designed and developed by me.",
     technologies: ["React.js", "Express.js", "Node.js", "MySQL"],
     date: "2024",
     status: "Completed",
     image: "pic1.jpg",
-    link: "https://ateasegroup.com",
+    link: "https://example.com",
   },
   {
     title: "Trumart",

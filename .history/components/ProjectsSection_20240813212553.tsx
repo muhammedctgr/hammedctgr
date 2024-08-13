@@ -18,7 +18,7 @@ const projects: Project[] = [
     date: "2024",
     status: "Completed",
     image: "pic1.jpg",
-    link: "https://ateasegroup.com",
+    link: "https://example.com",
   },
   {
     title: "Trumart",

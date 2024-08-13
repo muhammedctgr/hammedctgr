@@ -8,7 +8,7 @@ const Footer = () => {
                 <span className='text-2xl'>&#128187;</span> by <span className='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>hammedctgr</span> for <a href="https://6ixville.github.io/" target="_blank" rel="noopener noreferrer" className='underline'>6ixville Inc.</a>
                 </p>
                 <div className="">
-                    <div className=" flex justify-center space-x-4 ">
+                    <div className=" flex justify-center space-x-4 md:pt-0">
                         <a href="#" className="bg-blue-600 p-2 rounded-md shadow-deep-all">
                             <AiFillLinkedin size={20} />
                         </a>
