@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+@keyframes upDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust the value as needed */
+  }
+}
+
+.animate-upDown {
+  animation: upDown 2s infinite ease-in-out; /* Adjust duration as needed */
+}
+
+@keyframes scroll-slow {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes scroll-medium {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes scroll-fast {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes scroll-upfast {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.animate-scroll-upfast {
+  animation: scroll-upfast 3s linear infinite;
+}
+
+.animate-scroll-slow {
+  animation: scroll-slow 9s linear infinite;
+}
+
+.animate-scroll-medium {
+  animation: scroll-medium 6s linear infinite;
+}
+
+.animate-scroll-fast {
+  animation: scroll-fast 1s linear infinite;
+}
+
+.animate-scroll-delay {
+  animation-delay: 2s;
+}
+
+.animate-scroll-delay-long {
+  animation-delay: 4s;
+}
+
+.animate-scroll {
+  animation: scroll 10s linear infinite;
+}
+
+.neumorph {
+  border-radius: 5px;
+  background: linear-gradient(145deg, #161414, #1a1818);
+  box-shadow:  5px 5px 10px #111010,
+               -5px -5px 10px #1f1c1c;
+}
