@@ -81,9 +81,12 @@ const ProjectsSection: FC = () => {
                     <img key={i} src={image} alt={`${project.title} image ${i + 2}`} className="w-full h-full object-cover shadow-deep-all" />
                   ))}
                 </div>
-                <span className={`shadow-deep-all absolute top-2 right-2 text-xs text-white px-2 py-1 rounded-md ${project.status === 'Completed' ? 'bg-green-500' : 'bg-yellow-500'}`}>
-                  {project.status}
-                </span>
+                <span className={`shadow-deep-all absolute top-2 right-2 text-xs text-white px-2 py-1 rounded-md ${
+      project.status === 'Completed' ? 'bg-green-500' : 'bg-yellow-500'
+    }`}
+  >
+    {project.status}
+  </span>
               </div>
               <div className="p-4">
                 <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>

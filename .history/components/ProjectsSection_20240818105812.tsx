@@ -43,14 +43,14 @@ const projects: Project[] = [
     description: "This is a fullstack eCommerce app where customers can search, check information and order for affordable interior design items, which will be delivered to their doorsteps seamlessly",
     technologies: ["Next.js", "Tailwind", "Node.js", "MongoDB", "Firebase"],
     date: "2023",
-    status: "Development",
+    status: "Completed",
     images: ["dec1.jpg", "dec2.jpg",],
     link: "https://mydecors-prod.vercel.app/",
   },
   {
     title: "Calculator",
     description: "This is advanced javascript calculator.",
-    technologies: ["HTML", "SCSS", "Javascript",],
+    technologies: ["React.js", "Express.js", "Javascript","Node.js",],
     date: "2021",
     status: "Completed",
     images: ["calc2.jpg", "calc1.jpg", "at1.jpg",],
@@ -58,11 +58,11 @@ const projects: Project[] = [
   },
   {
     title: "TicTacToe",
-    description: "A game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.",
-    technologies: ["HTML", "CSS", "Javascript",],
+    description: "This is advanced javascript calculator.",
+    technologies: ["React.js", "Express.js", "Javascript","Node.js",],
     date: "2021",
     status: "Completed",
-    images: ["tc1.jpg", "tc2.jpg",],
+    images: ["tc2.jpg", "calc1.jpg", "at1.jpg",],
     link: "https://codepen.io/6ix-ville/full/YzrNyQe",
   },
 ];
@@ -81,9 +81,7 @@ const ProjectsSection: FC = () => {
                     <img key={i} src={image} alt={`${project.title} image ${i + 2}`} className="w-full h-full object-cover shadow-deep-all" />
                   ))}
                 </div>
-                <span className={`shadow-deep-all absolute top-2 right-2 text-xs text-white px-2 py-1 rounded-md ${project.status === 'Completed' ? 'bg-green-500' : 'bg-yellow-500'}`}>
-                  {project.status}
-                </span>
+                <span className="shadow-deep-all absolute top-2 right-2 bg-green-500 text-xs text-white px-2 py-1 rounded-md">{project.status}</span>
               </div>
               <div className="p-4">
                 <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>

@@ -50,7 +50,7 @@ const projects: Project[] = [
   {
     title: "Calculator",
     description: "This is advanced javascript calculator.",
-    technologies: ["HTML", "SCSS", "Javascript",],
+    technologies: ["React.js", "Express.js", "Javascript","Node.js",],
     date: "2021",
     status: "Completed",
     images: ["calc2.jpg", "calc1.jpg", "at1.jpg",],
@@ -81,9 +81,7 @@ const ProjectsSection: FC = () => {
                     <img key={i} src={image} alt={`${project.title} image ${i + 2}`} className="w-full h-full object-cover shadow-deep-all" />
                   ))}
                 </div>
-                <span className={`shadow-deep-all absolute top-2 right-2 text-xs text-white px-2 py-1 rounded-md ${project.status === 'Completed' ? 'bg-green-500' : 'bg-yellow-500'}`}>
-                  {project.status}
-                </span>
+                <span className="shadow-deep-all absolute top-2 right-2 bg-green-500 text-xs text-white px-2 py-1 rounded-md">{project.status}</span>
               </div>
               <div className="p-4">
                 <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>

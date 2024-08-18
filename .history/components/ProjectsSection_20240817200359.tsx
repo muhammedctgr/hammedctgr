@@ -22,12 +22,12 @@ const projects: Project[] = [
   },
   {
     title: "Map data across the Globe",
-    description: "This is an advanced map data across the the globe that shows infographic on specific locations",
-    technologies: ["HTML", "SCSS","Javascript", "D3.js",],
+    description: "Trumart is a web2 marketplace that processes payment in web3, allowing minting of products as NFTs and more. Designed and developed by me.",
+    technologies: ["HTML", "SCSS", "D3.js",],
     date: "2023",
     status: "Completed",
-    images: ["md1.jpg", "md2.jpg",],
-    link: "https://codepen.io/6ix-ville/full/NWaxaZR",
+    images: ["md1.jpg", "pic1.jpg", "pic1.jpg"],
+    link: "https://example.com",
   },
   {
     title: "Super Task Timer",
@@ -39,32 +39,24 @@ const projects: Project[] = [
     link: "https://super-task-timer-5o5i.vercel.app/",
   },
   {
-    title: "mydecors",
-    description: "This is a fullstack eCommerce app where customers can search, check information and order for affordable interior design items, which will be delivered to their doorsteps seamlessly",
-    technologies: ["Next.js", "Tailwind", "Node.js", "MongoDB", "Firebase"],
+    title: "",
+    description: "Trumart is a web2 marketplace that processes payment in web3, allowing minting of products as NFTs and more. Designed and developed by me.",
+    technologies: ["React.js", "Express.js", "Node.js", "MySQL"],
     date: "2023",
-    status: "Development",
-    images: ["dec1.jpg", "dec2.jpg",],
-    link: "https://mydecors-prod.vercel.app/",
+    status: "Completed",
+    images: ["pic1.jpg", "pic1.jpg",],
+    link: "https://example.com",
   },
   {
     title: "Calculator",
     description: "This is advanced javascript calculator.",
-    technologies: ["HTML", "SCSS", "Javascript",],
+    technologies: ["React.js", "Express.js", "Node.js",],
     date: "2021",
     status: "Completed",
     images: ["calc2.jpg", "calc1.jpg", "at1.jpg",],
     link: "https://codepen.io/6ix-ville/full/zYEOQex",
   },
-  {
-    title: "TicTacToe",
-    description: "A game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.",
-    technologies: ["HTML", "CSS", "Javascript",],
-    date: "2021",
-    status: "Completed",
-    images: ["tc1.jpg", "tc2.jpg",],
-    link: "https://codepen.io/6ix-ville/full/YzrNyQe",
-  },
+  // Add more projects as needed...
 ];
 
 const ProjectsSection: FC = () => {
@@ -81,9 +73,7 @@ const ProjectsSection: FC = () => {
                     <img key={i} src={image} alt={`${project.title} image ${i + 2}`} className="w-full h-full object-cover shadow-deep-all" />
                   ))}
                 </div>
-                <span className={`shadow-deep-all absolute top-2 right-2 text-xs text-white px-2 py-1 rounded-md ${project.status === 'Completed' ? 'bg-green-500' : 'bg-yellow-500'}`}>
-                  {project.status}
-                </span>
+                <span className="shadow-deep-all absolute top-2 right-2 bg-green-500 text-xs text-white px-2 py-1 rounded-md">{project.status}</span>
               </div>
               <div className="p-4">
                 <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
