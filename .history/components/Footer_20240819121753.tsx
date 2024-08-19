@@ -9,7 +9,7 @@ const Footer = () => {
                 </p>
                 <div className="">
                     <div className="flex justify-center space-x-4 mt-4">
-                        <a href="https://www.linkedin.com/in/popoola-muhammed-a82b3918a/" target="_blank" rel="noopener noreferrer" className="bg-blue-600 p-2 rounded-md shadow-deep-all transform transition-transform duration-300 hover:scale-110">
+                        <a href="https://www.linkedin.com/in/popoola-muhammed-a82b3918a/" className="bg-blue-600 p-2 rounded-md shadow-deep-all transform transition-transform duration-300 hover:scale-110">
                             <AiFillLinkedin size={20} />
                         </a>
                         <a href="https://x.com/Greazely" target="_blank" rel="noopener noreferrer" className="bg-githubGray p-2 rounded-md shadow-deep-all transform transition-transform duration-300 hover:scale-110">
