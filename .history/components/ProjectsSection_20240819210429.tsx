@@ -35,7 +35,7 @@ const projects: Project[] = [
     technologies: ["Next.js", "Express.js", "Node.js", "MySQL", "Tailwind"],
     date: "2023",
     status: "Completed",
-    images: ["as1.jpg", "as2.jpg",],
+    images: ["as1.jpg", "sp2.jpg",],
     link: "https://autostoreonline.org/",
   },
   {

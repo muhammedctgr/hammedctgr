@@ -30,13 +30,13 @@ const projects: Project[] = [
     link: "https://mydecors-prod.vercel.app/",
   },
   {
-    title: "Auto Store",
-    description: "AutoStoreOnline is a a store for those looking for their next car. The website features a dealership dashboard displaying of inventories can be done in minutes.",
-    technologies: ["Next.js", "Express.js", "Node.js", "MySQL", "Tailwind"],
+    title: "Super Task Timer",
+    description: "Effortlessly manage your tasks, track time spent, and stay on top of deadlines. Streamline your workflow and boost efficiency..",
+    technologies: ["Next.js", "Typescript", "Node.js", "HarperDB", "Tailwind"],
     date: "2023",
     status: "Completed",
-    images: ["as1.jpg", "as2.jpg",],
-    link: "https://autostoreonline.org/",
+    images: ["sp1.jpg", "sp2.jpg",],
+    link: "https://super-task-timer-5o5i.vercel.app/",
   },
   {
     title: "Super Task Timer",

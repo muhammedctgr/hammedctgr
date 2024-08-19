@@ -30,15 +30,6 @@ const projects: Project[] = [
     link: "https://mydecors-prod.vercel.app/",
   },
   {
-    title: "Auto Store",
-    description: "AutoStoreOnline is a a store for those looking for their next car. The website features a dealership dashboard displaying of inventories can be done in minutes.",
-    technologies: ["Next.js", "Express.js", "Node.js", "MySQL", "Tailwind"],
-    date: "2023",
-    status: "Completed",
-    images: ["as1.jpg", "as2.jpg",],
-    link: "https://autostoreonline.org/",
-  },
-  {
     title: "Super Task Timer",
     description: "Effortlessly manage your tasks, track time spent, and stay on top of deadlines. Streamline your workflow and boost efficiency..",
     technologies: ["Next.js", "Typescript", "Node.js", "HarperDB", "Tailwind"],
@@ -46,6 +37,16 @@ const projects: Project[] = [
     status: "Completed",
     images: ["sp1.jpg", "sp2.jpg",],
     link: "https://super-task-timer-5o5i.vercel.app/",
+  },
+  
+  {
+    title: "Calculator",
+    description: "This is advanced javascript calculator.",
+    technologies: ["HTML", "SCSS", "Javascript",],
+    date: "2021",
+    status: "Completed",
+    images: ["calc2.jpg", "calc1.jpg", "at1.jpg",],
+    link: "https://codepen.io/6ix-ville/full/zYEOQex",
   },
   {
     title: "TicTacToe",
@@ -55,24 +56,6 @@ const projects: Project[] = [
     status: "Completed",
     images: ["tc1.jpg", "tc2.jpg",],
     link: "https://codepen.io/6ix-ville/full/YzrNyQe",
-  },
-  {
-    title: "Map data across the Globe",
-    description: "This is an advanced map data across the the globe that shows infographic on specific locations",
-    technologies: ["HTML", "SCSS","Javascript", "D3.js",],
-    date: "2023",
-    status: "Completed",
-    images: ["md1.jpg", "md2.jpg",],
-    link: "https://codepen.io/6ix-ville/full/NWaxaZR",
-  },
-  {
-    title: "Calculator",
-    description: "This is advanced javascript calculator.",
-    technologies: ["HTML", "SCSS", "Javascript",],
-    date: "2021",
-    status: "Completed",
-    images: ["calc2.jpg", "calc1.jpg", "at1.jpg",],
-    link: "https://codepen.io/6ix-ville/full/zYEOQex",
   },
 ];
 
