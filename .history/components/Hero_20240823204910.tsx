@@ -20,7 +20,7 @@ const Hero = () => {
         <li>IT<span className="text-blue-600"> Infrastructure</span></li>
       </ul>
       <div className="mt-6">
-        <a href="#contact" className="whitespace-nowrap">Any interesting project?...reach me here</a>
+        <a href="#contact" className="underline">Any interesting pro</a>
         <div className="mt-2 flex justify-start space-x-4">
           <a href="https://www.linkedin.com/in/popoola-muhammed-a82b3918a/" target="_blank" rel="noopener noreferrer" className="bg-blue-600 p-2 rounded-md shadow-deep-all transform transition-transform duration-300 hover:scale-110">
             <AiFillLinkedin size={20} />
