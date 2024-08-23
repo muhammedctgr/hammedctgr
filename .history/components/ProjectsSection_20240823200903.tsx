@@ -29,6 +29,7 @@ const projects: Project[] = [
     images: ["dec1.jpg", "dec2.jpg",],
     link: "https://mydecors-prod.vercel.app/",
   },
+
   {
     title: "Super Task Timer",
     description: "Effortlessly manage your tasks, track time spent, and stay on top of deadlines. Streamline your workflow and boost efficiency..",

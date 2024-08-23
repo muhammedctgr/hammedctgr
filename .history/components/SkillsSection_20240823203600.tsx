@@ -39,6 +39,7 @@ const skills: SkillCategory[] = [
     skills: [
       { name: "Git",  },
       { name: "GitHub",  },
+      { name: "AWS", },
       { name: "GCP", },
       { name: "Firebase", },
       { name: "Github Actions", },

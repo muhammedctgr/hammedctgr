@@ -17,7 +17,7 @@ const Hero = () => {
       <ul className="mt-4 list-disc list-inside text-xs md:text-base">
         <li>Highly Optimized and Responsive <span className="text-blue-600">FRONT-END</span></li>
         <li>Secure and Scalable <span className="text-blue-600">BACK-END & DATABASE</span></li>
-        <li>IT<span className="text-blue-600"> Infrastructure</span></li>
+        <li><span className="text-blue-600">IT</span><span className="text-blue-600" Infrastructure</li>
       </ul>
       <div className="mt-6">
         <a href="#contact" className="underline">Let’s Connect</a>
