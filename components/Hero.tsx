@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import profilePic from '../public/profile.png';
+import profilePic from '../public/cto31.png';
 import { AiFillLinkedin, AiFillGithub, AiFillTwitterSquare, AiFillX } from 'react-icons/ai';
 
 const Hero = () => {
